@@ -1,0 +1,85 @@
+System.out.println("My left child has a: " + root.lChild.value);
+		System.out.println("My right child has a: " + root.rChild.value);
+		System.out.println("My grandchild has a: " + root.lChild.lChild.value);
+		
+		treeListNode makeANode(){
+		treeListNode newNode = new treeListNode('A', null, null, null);
+		
+		System.out.println("I made a new TreeListNode");
+		System.out.println("My value is: " + newNode.value);
+		
+		treeListNode lNode = new treeListNode('B', newNode, null, null);
+		treeListNode rNode = new treeListNode('C', newNode, null, null);
+		
+		newNode.lChild = lNode;
+		newNode.rChild = rNode;
+		
+		System.out.println("I added a left child node");	
+		System.out.println("I added a right child node");
+		
+		treeListNode grandNode = new treeListNode('D', lNode, null, null);
+		lNode.lChild = grandNode;
+		
+		return newNode;
+	}
+	
+	// TODO Auto-generated method stub
+		TreeList tL = new TreeList();
+
+		System.out.println("I made a Tree with one Node! " + tL);
+		
+		
+			for(int i = 0; i<preTraversal.length; i++) {
+				System.out.println(preTraversal[i]);
+			}
+			
+				System.out.println(preLine);
+				
+					System.out.println(prevTest);
+					
+					
+					
+					
+					
+					
+//public class Test {
+//
+//	public static void main(String[] args) {
+//
+//		String preOrderTraversal = "ABCDEFGH";
+//		String postOrderTraversal = "HGFEDCBA";
+//
+//		System.out.println("Preorder: ");
+//		for (int i = 0; i < preOrderTraversal.length(); i++) {
+//			System.out.print(preOrderTraversal.charAt(i));
+//		}
+//		System.out.println();
+//		System.out.println("Postorder: ");
+//		for (int i = 0; i < postOrderTraversal.length(); i++) {
+//			System.out.print(postOrderTraversal.charAt(i));
+//		}
+//
+//		while (!postOrderTraversal.equals("")) {
+//
+//			System.out.println();
+//			System.out.println("Preorder: char removed: " + preOrderTraversal.charAt(0));
+//			System.out
+//					.println("Postorder: char removed: " + postOrderTraversal.charAt(postOrderTraversal.length() - 1));
+//			preOrderTraversal = preOrderTraversal.substring(1, preOrderTraversal.length());
+//			postOrderTraversal = postOrderTraversal.substring(0, postOrderTraversal.length() - 1);
+//
+//			System.out.println("After removal:");
+//			System.out.println("Preorder: ");
+//			for (int i = 0; i < preOrderTraversal.length(); i++) {
+//				System.out.print(preOrderTraversal.charAt(i));
+//			}
+//			System.out.println();
+//			System.out.println("Postorder: ");
+//			for (int i = 0; i < postOrderTraversal.length(); i++) {
+//				System.out.print(postOrderTraversal.charAt(i));
+//			}
+//		}
+//	}
+//
+//}
+					

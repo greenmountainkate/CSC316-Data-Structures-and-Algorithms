@@ -1,0 +1,17 @@
+In computing, plain text is the data (e.g. file contents) that represent only characters of readable material but not its graphical representation nor other objects (images, etc.). It may also include a limited number of characters that control simple arrangement of text, such as line breaks or tabulation characters. Plain text is different from formatted text, where style information is included, and from "binary files" in which some portions must be interpreted as binary objects (encoded integers, real numbers, images, etc.).
+
+The encoding has traditionally been either ASCII, sometimes EBCDIC. Unicode-based encodings such as UTF-8 and UTF-16 are gradually replacing the older ASCII derivatives limited to 7 or 8 bit codes.
+
+
+Files that contain markup or other meta-data are generally considered plain-text, as long as the entirety remains in directly human-readable form (as in HTML, XML, and so on (as Coombs, Renear, and DeRose argue,[1] punctuation is itself markup). The use of plain text rather than bit-streams to express markup, enables files to survive much better "in the wild", in part by making them largely immune to computer architecture incompatibilities.
+
+According to The Unicode Standard,
+
+"Plain text is a pure sequence of character codes; plain Ue-encoded text is therefore a sequence of Unicode character codes."
+styled text, also known as rich text, is any text representation containing plain text completed by information such as a language identifier, font size, color, hypertext links.[2]
+For instance, rich text such as SGML, RTF, HTML, XML, wiki markup, and TeX rely on plain text.
+
+According to The Unicode Standard, plain text has two main properties in regard to rich text:
+
+"plain text is the underlying content stream to which formatting can be applied."
+"Plain text is public, standardized, and universally readable.".[2]

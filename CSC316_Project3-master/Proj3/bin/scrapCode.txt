@@ -1,0 +1,109 @@
+EdgeRecord edge = new EdgeRecord(3, 5, 1.0, "edge");
+		EdgeRecord edge2 = new EdgeRecord(4, 7, 2.9, "edge2");
+		EdgeRecord edge3 = new EdgeRecord(5, 4, 0.4, "edge3");
+		EdgeRecord edge4 = new EdgeRecord(5, 4, 0.4, "edge4");
+		EdgeRecord edge5 = new EdgeRecord(5, 4, 6.0, "edge5");
+		EdgeRecord edge6 = new EdgeRecord(5, 4, 0.25, "edge6");
+		EdgeRecord edge7 = new EdgeRecord(5, 4, 0.4, "edge7");
+		EdgeRecord edge8 = new EdgeRecord(6, 7, 21.9, "edge8");
+		
+		heap.insert(edge.weight, edge, heap.heapArray);
+		heap.insert(edge2.weight, edge2, heap.heapArray);
+		heap.insert(edge3.weight, edge3, heap.heapArray);
+		heap.insert(edge4.weight, edge4, heap.heapArray);
+		heap.insert(edge5.weight, edge5, heap.heapArray);
+		heap.insert(edge6.weight, edge6, heap.heapArray);
+		heap.insert(edge7.weight, edge7, heap.heapArray);
+		heap.insert(edge8.weight, edge8, heap.heapArray);
+		
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		System.out.println("Removed: " + heap.deleteMin().name );
+		
+		
+				adjList.add(1);
+		Vertex v = new Vertex(1);
+		if(adjList.contains(v.vertexNumber)) {
+			System.out.println("Found " + v.vertexNumber);
+		}
+		
+		
+		
+		
+		import java.util.LinkedList;
+
+public class AdjacencyList {
+
+	LinkedList<EdgeRecord> adList = new LinkedList<EdgeRecord>();
+	EdgeRecord root = new EdgeRecord(0, 0, 0);
+
+
+
+	void addToList(EdgeRecord e) {
+		// insert sorted and update e pointer to next
+		if (adList.size() == 0) {// emptyList
+			adList.add(e); // no need to update e's pointer
+			root.next = e;
+			return;
+		} else {
+			// find position to insert
+			int position = 0;
+			while (position < adList.size() && adList.get(position).vertex2 < e.vertex2) {
+				position++;
+			}
+
+			if (position < adList.size()) { // position was inside list
+				e.next = adList.get(position - 1).next; // point e to next node in line
+				adList.get(position - 1).next = e; // point previous to e
+				adList.add(position - 1, e);
+			} else { // was larger than any element in list
+				adList.get(position - 1).next = e; // point last item to e
+				adList.addLast(e); // add e to end, no need to update pointer
+			}
+
+		}
+	}
+
+}
+
+
+System.out.println("Had a next something");
+				int uVert = fileReader.nextInt();
+				if(uVert == -1) {
+					break;
+				}
+				System.out.println("uVert: " + uVert);
+				int vVert = fileReader.nextInt();
+				System.out.println("vVert: " + vVert);
+				
+				
+				
+				
+				
+				String line = fileReader.nextLine();
+				String[] tokens = line.split(" ");
+				for(int i = 0; i<tokens.length; i++) {
+					System.out.print("Token: " + tokens[i]);
+				}
+				
+							for(int i=0; i<6;i++) {
+				EdgeRecord e = heap.deleteMin();
+				System.out.println("Deleted Min from Heap");
+				System.out.println("E Vertex1: " + e.vertex1 + " Vertex2: " + e.vertex2 + " Edge Weight: " + e.weight);
+			}
+			
+			
+			
+			/*		if(pointer.next != null) {
+			System.out.println("Stopped before: " + pointer.next.vertex1);
+		} else {
+			System.out.println("Pointer is null");
+			System.out.println("Trailer.next = " + trailer.next.vertex1 + " " + trailer.next.vertex2);
+		}*/
+		//find position in v2
+		//pointer.next = trailer.next; //start again at target element looking at v2

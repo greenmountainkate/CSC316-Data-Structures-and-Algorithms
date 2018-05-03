@@ -1,0 +1,173 @@
+if (wordFound) {
+			return;
+		} else if (word.charAt(word.length() - 1) == 's') {
+			System.out.println("Word ended in s!");
+			word = word.substring(0, word.length() - 1);
+			System.out.println("Word without s is " + word);
+			System.out.println("WordCopy is still " + wordCopy);
+
+			wordFound = checkTable(word);
+			lookupCount++;
+
+			if (wordFound) {
+				return;
+			} else if (wordCopy.length()>=2 && wordCopy.substring(wordCopy.length() - 2, wordCopy.length()).equals("es")) {
+				System.out.println("Word ended in es!");
+				word = word.substring(0, word.length() - 1); // only need to take 1 bc s was removed above
+				System.out.println("Word without es is " + word);
+				System.out.println("WordCopy is still " + wordCopy);
+
+				wordFound = checkTable(word);
+				lookupCount++;
+
+				if (wordFound) {
+					return;
+				} 
+				
+				
+				if (word.length()>=2 && word.substring(word.length() - 2, word.length()).equals("ed")) {
+					System.out.println("Word ended in eds!");
+					word = word.substring(0, word.length() - 2); // only need to take 2 bc s was removed above
+					System.out.println("Word without eds is " + word);
+					System.out.println("WordCopy is still " + wordCopy);
+
+					wordFound = checkTable(word);
+					lookupCount++;
+
+					if (wordFound) {
+						return;
+					} else if (wordCopy.length()>=2 && wordCopy.substring(wordCopy.length() - 2, wordCopy.length()).equals("ed")) {
+						System.out.println("Word ended in eds and needs and e added back on!");
+						word = word + "e";
+						System.out.println("Word with an e is " + word);
+						System.out.println("WordCopy is still " + wordCopy);
+
+						wordFound = checkTable(word);
+						lookupCount++;
+
+						if (wordFound) {
+							return;
+						}
+					}
+
+				}
+			}
+		} 
+		
+		
+		
+
+		if (word.length()>=2 && word.substring(word.length() - 2, word.length()).equals("ed")) {
+			System.out.println("Word ended in ed!");
+			word = word.substring(0, word.length() - 2); 
+			System.out.println("Word without ed is " + word);
+			System.out.println("WordCopy is still " + wordCopy);
+
+			wordFound = checkTable(word);
+			lookupCount++;
+
+			if (wordFound) {
+				return;
+			}
+
+		}
+
+		// if get to here, word was not in dictionary, print to output file
+		System.out.println(wordCopy);
+		outfile.println(wordCopy);
+
+		
+		
+		
+		
+		
+		//Compression Function attempts
+		
+		//--- GOLDEN RATIO ---\\
+		
+		//STATS on Golden Ratio:
+		There are 25144 words in the file.
+		There were 4 collisions.
+		There were 7582 hash position collisions.
+		
+		//Code
+		double hashInter = hashVal * inversePhi;
+		System.out.println("hashInter is " + hashInter);
+		double floorInt = Math.floor(hashInter);
+		System.out.println("Floor of that is " + floorInt);
+		
+		double interStep = hashInter - floorInt;
+		System.out.println("Subtracting the floor from the original gives: " + interStep);
+		interStep = interStep * m;
+		System.out.println("Scaled to m is: " + interStep);
+			
+		double compPosition = Math.floor(interStep);
+		System.out.println("Floor of the scaled value is: " + compPosition);
+		
+		return (int)compPosition;
+		
+		//Execution Example
+		zygote
+		Hash Value of zygote is -70956315
+		hashInter is -4.385341447514685E7
+		Floor of that is -4.3853415E7
+		Subtracting the floor from the original gives: 0.5248531475663185
+		Scaled to m is: 17198.387939453125
+		Floor of the scaled value is: 17198.0
+		The comp hashPosition of zygote is 17198
+		
+		
+		
+		
+		//Hash value attempt
+		int n = word.length();
+		for(int i=0; i<word.length(); i++) {
+			hashVal = hashVal + (( word.charAt(i) ) * ( Math.pow(a, ( n - (i+1) ) ) ));
+		}
+		
+		System.out.println("The hashed value of " + word + " is " + hashVal);
+		
+		
+		
+		
+		private class wordNode{
+		String word;
+		private wordNode next;
+		
+		public wordNode(String w) {
+			word = w;
+		}
+	}
+	
+	
+	
+		
+	
+	
+	/*static final int a = 33; //arbitrary choice to decrease number of collisions
+	static final int m = 32768; //2^15 larger than expected n
+	static final double inversePhi = 0.61803399;*/
+	
+	
+		private static void addToCompArray(int hashPosition) {
+		if(compArray.contains(hashPosition)) {
+			System.out.println("There was a collision in compressed hash position");
+			compCollCount++;
+		}
+		
+		compArray.add(hashPosition);
+		
+	}
+	
+	
+	
+	private static void addToHashArray(int hashVal) {
+		if(hashArray.contains(hashVal)) {
+			System.out.println("There was a collision");
+			collisionCount++;
+		}
+		
+		hashArray.add(hashVal);
+		
+	}
+		

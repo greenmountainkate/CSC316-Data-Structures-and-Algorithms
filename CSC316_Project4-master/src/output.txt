@@ -1,0 +1,298 @@
+Correctly spelled word: In
+Correctly spelled word: computing
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: the
+Correctly spelled word: data
+Correctly spelled word: e
+Correctly spelled word: g
+Correctly spelled word: file
+Correctly spelled word: contents
+Correctly spelled word: that
+Misspelled word: represent
+Correctly spelled word: only
+Correctly spelled word: characters
+Correctly spelled word: of
+Misspelled word: readable
+Correctly spelled word: material
+Correctly spelled word: but
+Correctly spelled word: not
+Correctly spelled word: its
+Misspelled word: graphical
+Misspelled word: representation
+Correctly spelled word: nor
+Correctly spelled word: other
+Correctly spelled word: objects
+Correctly spelled word: images
+Correctly spelled word: etc
+Correctly spelled word: It
+Correctly spelled word: may
+Correctly spelled word: also
+Correctly spelled word: include
+Correctly spelled word: a
+Correctly spelled word: limited
+Correctly spelled word: number
+Correctly spelled word: of
+Correctly spelled word: characters
+Correctly spelled word: that
+Correctly spelled word: control
+Correctly spelled word: simple
+Misspelled word: arrangement
+Correctly spelled word: of
+Correctly spelled word: text
+Correctly spelled word: such
+Correctly spelled word: as
+Correctly spelled word: line
+Correctly spelled word: breaks
+Correctly spelled word: or
+Misspelled word: tabulation
+Correctly spelled word: characters
+Correctly spelled word: Plain
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: different
+Correctly spelled word: from
+Correctly spelled word: formatted
+Correctly spelled word: text
+Correctly spelled word: where
+Correctly spelled word: style
+Correctly spelled word: information
+Correctly spelled word: is
+Correctly spelled word: included
+Correctly spelled word: and
+Correctly spelled word: from
+Correctly spelled word: binary
+Correctly spelled word: files
+Correctly spelled word: in
+Correctly spelled word: which
+Correctly spelled word: some
+Misspelled word: portions
+Correctly spelled word: must
+Correctly spelled word: be
+Correctly spelled word: interpreted
+Correctly spelled word: as
+Correctly spelled word: binary
+Correctly spelled word: objects
+Misspelled word: encoded
+Correctly spelled word: integers
+Correctly spelled word: real
+Correctly spelled word: numbers
+Correctly spelled word: images
+Correctly spelled word: etc
+Correctly spelled word: The
+Misspelled word: encoding
+Correctly spelled word: has
+Misspelled word: traditionally
+Correctly spelled word: been
+Correctly spelled word: either
+Misspelled word: ASCII
+Correctly spelled word: sometimes
+Misspelled word: EBCDIC
+Misspelled word: Unicode
+Correctly spelled word: based
+Misspelled word: encodings
+Correctly spelled word: such
+Correctly spelled word: as
+Misspelled word: UTF
+Correctly spelled word: and
+Misspelled word: UTF
+Correctly spelled word: are
+Correctly spelled word: gradually
+Misspelled word: replacing
+Correctly spelled word: the
+Correctly spelled word: older
+Misspelled word: ASCII
+Misspelled word: derivatives
+Correctly spelled word: limited
+Correctly spelled word: to
+Correctly spelled word: or
+Correctly spelled word: bit
+Correctly spelled word: codes
+Correctly spelled word: Files
+Correctly spelled word: that
+Correctly spelled word: contain
+Misspelled word: markup
+Correctly spelled word: or
+Correctly spelled word: other
+Misspelled word: meta
+Correctly spelled word: data
+Correctly spelled word: are
+Correctly spelled word: generally
+Correctly spelled word: considered
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: as
+Correctly spelled word: long
+Correctly spelled word: as
+Correctly spelled word: the
+Correctly spelled word: entirety
+Misspelled word: remains
+Correctly spelled word: in
+Correctly spelled word: directly
+Correctly spelled word: human
+Misspelled word: readable
+Correctly spelled word: form
+Correctly spelled word: as
+Correctly spelled word: in
+Misspelled word: HTML
+Misspelled word: XML
+Correctly spelled word: and
+Correctly spelled word: so
+Correctly spelled word: on
+Correctly spelled word: as
+Misspelled word: Coombs
+Misspelled word: Renear
+Correctly spelled word: and
+Misspelled word: DeRose
+Correctly spelled word: argue
+Misspelled word: punctuation
+Correctly spelled word: is
+Correctly spelled word: itself
+Misspelled word: markup
+Correctly spelled word: The
+Correctly spelled word: use
+Correctly spelled word: of
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: rather
+Correctly spelled word: than
+Correctly spelled word: bit
+Correctly spelled word: streams
+Correctly spelled word: to
+Correctly spelled word: express
+Misspelled word: markup
+Correctly spelled word: enables
+Correctly spelled word: files
+Correctly spelled word: to
+Correctly spelled word: survive
+Correctly spelled word: much
+Misspelled word: better
+Correctly spelled word: in
+Correctly spelled word: the
+Correctly spelled word: wild
+Correctly spelled word: in
+Correctly spelled word: part
+Correctly spelled word: by
+Correctly spelled word: making
+Correctly spelled word: them
+Correctly spelled word: largely
+Correctly spelled word: immune
+Correctly spelled word: to
+Correctly spelled word: computer
+Correctly spelled word: architecture
+Misspelled word: incompatibilities
+Correctly spelled word: According
+Correctly spelled word: to
+Correctly spelled word: The
+Misspelled word: Unicode
+Correctly spelled word: Standard
+Correctly spelled word: Plain
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: a
+Correctly spelled word: pure
+Misspelled word: sequence
+Correctly spelled word: of
+Correctly spelled word: character
+Correctly spelled word: codes
+Correctly spelled word: plain
+Misspelled word: Ue
+Misspelled word: encoded
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: therefore
+Correctly spelled word: a
+Misspelled word: sequence
+Correctly spelled word: of
+Misspelled word: Unicode
+Correctly spelled word: character
+Correctly spelled word: codes
+Correctly spelled word: styled
+Correctly spelled word: text
+Correctly spelled word: also
+Correctly spelled word: known
+Correctly spelled word: as
+Correctly spelled word: rich
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: any
+Correctly spelled word: text
+Misspelled word: representation
+Correctly spelled word: containing
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: completed
+Correctly spelled word: by
+Correctly spelled word: information
+Correctly spelled word: such
+Correctly spelled word: as
+Correctly spelled word: a
+Correctly spelled word: language
+Misspelled word: identifier
+Correctly spelled word: font
+Correctly spelled word: size
+Misspelled word: color
+Misspelled word: hypertext
+Correctly spelled word: links
+Correctly spelled word: For
+Correctly spelled word: instance
+Correctly spelled word: rich
+Correctly spelled word: text
+Correctly spelled word: such
+Correctly spelled word: as
+Misspelled word: SGML
+Misspelled word: RTF
+Misspelled word: HTML
+Misspelled word: XML
+Misspelled word: wiki
+Misspelled word: markup
+Correctly spelled word: and
+Misspelled word: TeX
+Correctly spelled word: rely
+Correctly spelled word: on
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: According
+Correctly spelled word: to
+Correctly spelled word: The
+Misspelled word: Unicode
+Correctly spelled word: Standard
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: has
+Correctly spelled word: two
+Correctly spelled word: main
+Misspelled word: properties
+Correctly spelled word: in
+Correctly spelled word: regard
+Correctly spelled word: to
+Correctly spelled word: rich
+Correctly spelled word: text
+Correctly spelled word: plain
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: the
+Correctly spelled word: underlying
+Correctly spelled word: content
+Correctly spelled word: stream
+Correctly spelled word: to
+Correctly spelled word: which
+Correctly spelled word: formatting
+Correctly spelled word: can
+Correctly spelled word: be
+Correctly spelled word: applied
+Correctly spelled word: Plain
+Correctly spelled word: text
+Correctly spelled word: is
+Correctly spelled word: public
+Misspelled word: standardized
+Correctly spelled word: and
+Correctly spelled word: universally
+Misspelled word: readable
+Number of words in Dictionary: 25144
+Number of words in Text: 292
+Number of misspelled words: 54
+Total number of probes: 570
+Average probes per word: 1.952054794520548
+Average probes per lookup: 1.0674157303370786
